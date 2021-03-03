@@ -1,0 +1,12 @@
+Index: testgit/testgit.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- testgit/testgit.py	(date 1614671429678)
++++ testgit/testgit.py	(date 1614671429678)
+@@ -0,0 +1,1 @@
++print('hello git')
+\ No newline at end of file
+diff --git testgit/__init__.py testgit/__init__.py
+new file mode 100644
