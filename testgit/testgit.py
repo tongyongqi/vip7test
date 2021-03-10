@@ -10,9 +10,10 @@ class washer():
     #方法
     def wash(self):
         print('我会洗衣服')
-    def print_info(self):
+    def  print_info(self):
         print(f'heier1的宽度是:{self.width}')
         print(f'heier1的高度是:{self.height}')
+        print(f'heier1的kuan度是:{self.height}')
 #2。创建对象-----实力化
 heier1= washer(300,400)
 # print(heier1)
