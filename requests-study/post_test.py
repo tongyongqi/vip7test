@@ -4,10 +4,11 @@ import requests
 #1。请求地址
 import username as username
 
-urlstr = 'https://www.wanandroid.com/user/login'
+urlstr1 = 'https://www.wanandroid.com/user/login'
+# urlstr='https://www.wanandroid.com/lg/todo/list/0'
 datas= {'username':'tongyongqi','password':'tyq069822,.?'}
 # 2。发送请求
-r = requests.post(url=urlstr,data=datas)
+r = requests.post(url=urlstr1,data=datas)
 print(r.status_code)
 print(r.json())
 
@@ -20,7 +21,7 @@ username = res_result['data']['username']
 
 #响应断言
 if errCode == 0 and username == datas['username']:
-    print('登录成功') 
+    print('登录成功')
 
 
 
